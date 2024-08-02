@@ -55,6 +55,7 @@ public class AnadirCandidatoStep {
 
     @Entonces("el canditadto es contratado")
     public void elCanditadtoEsContratado() {
+        theActorInTheSpotlight().should(seeThat(TargetIs.visible(VALIDAR_HIRED.of("Payroll Administrator")), Matchers.is(true)));
     }
 
 }

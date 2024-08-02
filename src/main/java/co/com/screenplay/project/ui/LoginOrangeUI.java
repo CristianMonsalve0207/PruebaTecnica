@@ -15,4 +15,6 @@ public class LoginOrangeUI extends PageObject {
     public static final Target USER_NAME = Target.the("User name").locatedBy("//input[@name='username']");
     public static final Target PASSWORD = Target.the("Password").locatedBy("//input[@name='password']");
     public static final Target BTN_LOGIN = Target.the("Button login").locatedBy("//button[@type='submit']");
+    public static final Target ERROR_LOGIN = Target.the("Button login").locatedBy("//div[@class='oxd-alert-content oxd-alert-content--error']");
+
 }
